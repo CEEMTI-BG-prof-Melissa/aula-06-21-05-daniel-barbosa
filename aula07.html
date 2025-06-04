@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title> Aula 07 </title>
+  </head>
+  <body>
+    <h1> Cadastro Pessoal </h1>
+    <form action = "/recebe.html" method="get">
+        <p>
+            Nome completo: <input type="text">
+        </p>
+        <p>
+            Senha: <input type="password" id="senha" name="senha"> 
+        </p>
+        <p>
+            Idade: <input type="number" id="idade" name="idade" min="1" max="120">
+        </p>
+        <p>
+            Email: <input type="email" id="email" name="email">
+        </p>
+            Data de nascimento: <input type="date" id="date" name="date">
+        <p>
+        <p>
+            Mensagem pessoal:
+        </p>
+            <textarea rows="4" cols="40"></textarea>
+        <p>
+        <p>
+            Area de interesse:
+        </p>
+        <select>
+            <option value="programacao"> Programação </option>
+            <option value="design"> Design </option>
+            <option value="redes"> Redes </option>
+            <option value="suporte"> Suporte </option>
+        </select>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+  </body>
+</html>
